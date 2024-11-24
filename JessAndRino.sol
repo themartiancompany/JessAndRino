@@ -3341,11 +3341,12 @@ abstract contract Ownable is Context {
 /**
  * @title Jess and Rino
  * @dev Us, together at least until money will rule the world,
- *      hopefully, more than that.
- *      Also we are proving without even using the Ethereum
- *      Virtual Machine file system, so in a single string,
+ *      hopefully more than that.
+ *      Also we are proving without even without using the Ethereum
+ *      Virtual Machine file system, so using a single string,
  *      that all NFT pointing to resources not on chain
- *      are garbage.
+ *      are plainly dishonest.
+ *      I love you.
  */
 contract JessAndRino is ERC721, Ownable {
     constructor() Ownable(InitialOwner) ERC721("Me and Jess", "JKRP") {}
