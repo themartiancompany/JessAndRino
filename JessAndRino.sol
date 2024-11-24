@@ -3338,6 +3338,15 @@ abstract contract Ownable is Context {
     }
 }
 
+/**
+ * @title Jess and Rino
+ * @dev Us, together at least until money will rule the world,
+ *      hopefully, more than that.
+ *      Also we are proving without even using the Ethereum
+ *      Virtual Machine file system, so in a single string,
+ *      that all NFT pointing to resources not on chain
+ *      are garbage.
+ */
 contract JessAndRino is ERC721, Ownable {
     constructor() Ownable(InitialOwner) ERC721("Me and Jess", "JKRP") {}
 
@@ -3347,8 +3356,8 @@ contract JessAndRino is ERC721, Ownable {
     bool public locked = false;
 
     /**
-     * @dev Set the NFT picture.
-     * @param _picture The picture, encoded in base122 and compressed in .tar.xz.
+     * @dev Sets the NFT picture.
+     * @param _picture The picture, in JPG, encoded in base64.
     */
     function setPicture(
       string memory _picture)
