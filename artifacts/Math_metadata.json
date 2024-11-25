@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Standard math utilities missing in the Solidity language.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/JessAndRino.sol": "Math"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/JessAndRino.sol": {
+			"keccak256": "0xf78a3aa29aa8ad643a8656bc011a65b5805b662c0481a7f9521f03009b52b14d",
+			"license": "AGPL3",
+			"urls": [
+				"bzz-raw://a03bbd24a1a30fea2ec50e72b6d8406547659273efdf263e513a1d770213f912",
+				"dweb:/ipfs/QmZxPRJRKkrTWKYLbuBJrQ8KtwLLszpepnYP2cXUBzavBH"
+			]
+		}
+	},
+	"version": 1
+}
